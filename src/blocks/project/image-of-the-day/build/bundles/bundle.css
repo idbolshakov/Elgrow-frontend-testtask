@@ -82,7 +82,7 @@
         
         font-size: 0.8rem;
 
-        width: 25.8064516129%; /* 80px * 100% / 310px */
+        width: 80px; 
 
         margin-left: 1.935483871%; /* 6px * 100% / 310px */
         margin-top: 1.935483871%;  /* 6px * 100% / 310px */
@@ -90,19 +90,29 @@
 
     .image-of-the-day__day-plate>span:first-child {
 
-        margin-top: 13.75%; /* 11px * 100% / 80px */
+        margin-top: 11px;
     }
-}
+
     .image-of-the-day__day-plate>span:last-child {
 
-        margin-bottom: 10%; /* 8px * 100% / 80px */
+        margin-bottom: 8px;
     }
+
+}
 
 /**
  * tablet section 
  *
  */
 @media (min-width: 480px) {
+
+    .image-of-the-day__day-plate {
+        
+        font-size: 0.8rem;
+
+        margin-left: 2.27272727273%; /* 10px * 100% / 440px */
+        margin-top:  2.27272727273%;  /* 10px * 100% / 440px */
+    }
 }
 
 /** 

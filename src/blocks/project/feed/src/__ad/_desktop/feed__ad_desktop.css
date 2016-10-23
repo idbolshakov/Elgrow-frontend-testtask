@@ -1,23 +1,20 @@
 /**
- * pagination__title.css
- * 
+ * feed__ad_desktop.css
+ *
  * @author idbolshakov@gmail.com
  */
 
 /** 
  * basic section 
+ * 
  */
-.pagination__title {
-
-    color: #848484;
-}
-
 /** 
  * mobile section 
+ * 
  */
 @media  (min-width: 320px) {
 
-    .pagination__title {
+    .feed__ad_desktop {
 
         display: none;
     }
@@ -29,9 +26,9 @@
  */
 @media (min-width: 480px) {
 
-    .pagination__title {
+    .feed__ad_desktop {
 
-        display: inline-block;
+        display: none;
     }
 }
 
@@ -41,4 +38,9 @@
  */
 @media (min-width: 768px) {
 
+    .feed__ad_desktop {
+
+        display: block;
+    }
 }
+

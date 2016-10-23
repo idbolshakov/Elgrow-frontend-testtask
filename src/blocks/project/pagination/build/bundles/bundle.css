@@ -55,6 +55,8 @@
  * basic section 
  */
 .pagination__title {
+
+    color: #848484;
 }
 
 /** 
@@ -73,6 +75,11 @@
  *
  */
 @media (min-width: 480px) {
+
+    .pagination__title {
+
+        display: inline-block;
+    }
 }
 
 /** 

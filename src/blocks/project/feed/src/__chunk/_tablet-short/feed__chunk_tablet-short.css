@@ -1,26 +1,19 @@
 /**
- * pagination__title.css
- * 
+ * feed__chunk_tablet-short.css
+ *
  * @author idbolshakov@gmail.com
  */
 
 /** 
  * basic section 
+ * 
  */
-.pagination__title {
-
-    color: #848484;
-}
 
 /** 
  * mobile section 
+ * 
  */
 @media  (min-width: 320px) {
-
-    .pagination__title {
-
-        display: none;
-    }
 }
 
 /**
@@ -29,10 +22,13 @@
  */
 @media (min-width: 480px) {
 
-    .pagination__title {
+    .feed__chunk_tablet-short {
 
-        display: inline-block;
+        width: 59.0909090909%; /* 260px * 100% / 440px */
+
+        float: left;
     }
+
 }
 
 /** 
@@ -41,4 +37,8 @@
  */
 @media (min-width: 768px) {
 
+    .feed__chunk_tablet-short {
+
+        width: 100%;
+    }
 }

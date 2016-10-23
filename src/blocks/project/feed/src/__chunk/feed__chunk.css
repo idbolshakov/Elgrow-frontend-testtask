@@ -17,6 +17,17 @@
     padding: 0;
 }
 
+.feed__chunk:after {
+
+    display: block;
+
+    height: 0;
+
+    clear: both;
+
+    content: ' ';
+}
+
 /** 
  * mobile section 
  * 

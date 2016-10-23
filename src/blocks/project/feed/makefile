@@ -12,8 +12,12 @@ BLOCK   = feed
 
 CSS     = src/feed.css\
 		  src/__chunk/feed__chunk.css\
+		  src/__chunk/_tablet-short/feed__chunk_tablet-short.css\
 		  src/__content/feed__content.css\
 		  src/__ad/feed__ad.css\
+		  src/__ad/_mobile/feed__ad_mobile.css\
+		  src/__ad/_tablet/feed__ad_tablet.css\
+		  src/__ad/_desktop/feed__ad_desktop.css\
 
 JS      = 
 
@@ -32,6 +36,7 @@ PNG     = src/__content/feed__content.png/1.png\
 		  src/__content/feed__content.png/11.png\
 		  src/__content/feed__content.png/12.png\
 		  src/__ad/feed__ad.png/mobile_ad.png\
+		  src/__ad/feed__ad.png/tablet_ad.png\
 
 
 JPG     =  

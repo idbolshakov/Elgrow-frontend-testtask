@@ -44,6 +44,7 @@ rebuild_all_blocks:
 copy_html:
 
 	@cp src/index_mobile.html build/index_mobile.html;
+	@cp src/index_tablet.html build/index_tablet.html;
 
 
 concat_bundle_css:
