@@ -1,0 +1,49 @@
+/**
+ * pagination__page.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.pagination__page {
+
+    display: inline-block;
+
+    width: 34px;
+    height: 34px;
+
+    text-align: center;
+    line-height: 34px;
+
+            border-radius: 17px;
+       -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+
+    cursor: pointer;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination__page {
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

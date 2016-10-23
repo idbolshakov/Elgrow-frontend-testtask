@@ -1,0 +1,37 @@
+/**
+ * pagination__title.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.pagination__title {
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination__title {
+
+        display: none;
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

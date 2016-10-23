@@ -1,0 +1,153 @@
+/**
+ * feed-content-date.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+
+.feed-content-date {
+    
+    font-family: Serif;
+
+    position: relative;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .feed-content-date { 
+
+        font-size: 0.8rem;
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
+ * feed-content-date__day.css
+ *
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+
+.feed-content-date__day {
+
+    margin: 0;
+    padding: 0;
+}
+
+.feed-content-date__day:after {
+
+    display: inline-block;
+
+    position: absolute;
+    z-index: 2;
+    right: 0;
+
+    content: '▸';
+}
+
+.feed-content-date:hover>.feed-content-date__day:after {
+
+    color: red;
+
+}
+
+
+/** 
+ * mobile section 
+ * 
+ */
+@media  (min-width: 320px) {
+
+    .feed-content-date__day {
+
+        margin-top: 12.3287671233%; /* 9px * 100% / 73px */
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
+ * feed-content-date__month.css
+ *
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+
+.feed-content-date__month {
+
+    margin: 0;
+    padding: 0;
+}
+
+/** 
+ * mobile section 
+ * 
+ */
+@media  (min-width: 320px) {
+
+    .feed-content-date__month {
+
+        margin-top: 8.21917808219%; /* 6px * 100% / 73px */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

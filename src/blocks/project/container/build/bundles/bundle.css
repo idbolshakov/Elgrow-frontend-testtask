@@ -1,0 +1,63 @@
+/**
+ * container.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+html, body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.container * {
+
+    font-family: serif;
+}
+
+.container {
+
+    box-sizing: border-box;
+
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .container {
+
+        padding: 0 1.5625%; /** 5px * 100% / 320px **/
+
+        margin-bottom: 6.5625%; /* 21px * 100% / 320px */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+    .container {
+
+        padding: 0 4.16666666667%; /** 20px * 100% / 480px **/
+    }
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

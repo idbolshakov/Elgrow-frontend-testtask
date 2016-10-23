@@ -1,0 +1,47 @@
+/**
+ * pagination.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+
+.pagination * {
+    
+    font-family: sans-serif;
+
+}
+
+.pagination {
+
+    margin: 0;
+    padding: 0;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination {
+
+        margin-top: 4.1935483871%; /* 13px * 100% / 310px */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

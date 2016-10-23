@@ -1,0 +1,70 @@
+/**
+ * title.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+
+.title {
+
+    display: inline-block;
+
+    text-transform: uppercase;
+    font-weight: normal;
+
+    max-width: 100%;
+
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin: 0;
+}
+
+.title:after {
+
+    display: inline-block;
+
+    width: 9999px;
+    height: 2px;
+
+    background: #000000;
+
+    content: '';
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .title {
+
+        margin-top: 8.70967741935%; /* 27px * 100% / 310px */
+
+        font-size: 1.3rem;
+    }
+    
+    .title:after {
+
+        margin-left: 6.45161290323%; /* 20px * 100% / 310px */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

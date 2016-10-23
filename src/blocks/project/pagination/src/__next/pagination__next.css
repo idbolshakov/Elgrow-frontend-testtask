@@ -1,0 +1,39 @@
+/**
+ * pagination__next.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.pagination__next {
+
+    cursor: pointer;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination__next {
+
+        margin-left: 7.74193548387%; /* 24 * 100% / 310px  */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

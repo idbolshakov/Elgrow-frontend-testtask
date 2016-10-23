@@ -1,0 +1,48 @@
+/**
+ * feed-content-date.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+
+.feed-content-date {
+    
+    font-family: Serif;
+
+    position: relative;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .feed-content-date { 
+
+        font-size: 0.8rem;
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

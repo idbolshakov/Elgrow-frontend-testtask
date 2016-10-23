@@ -1,0 +1,38 @@
+/**
+ * image-of-the-day.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.image-of-the-day {
+    
+    position: relative;
+
+    width: 100%;
+
+    overflow-x: hidden;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

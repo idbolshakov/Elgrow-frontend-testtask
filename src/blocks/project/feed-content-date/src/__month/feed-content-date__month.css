@@ -1,0 +1,44 @@
+/**
+ * feed-content-date__month.css
+ *
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+
+.feed-content-date__month {
+
+    margin: 0;
+    padding: 0;
+}
+
+/** 
+ * mobile section 
+ * 
+ */
+@media  (min-width: 320px) {
+
+    .feed-content-date__month {
+
+        margin-top: 8.21917808219%; /* 6px * 100% / 73px */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

@@ -1,0 +1,65 @@
+/**
+ * feed__content.css
+ *
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+
+.feed__content {
+
+    display: block;
+
+    float: left;
+
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+/** 
+ * mobile section 
+ * 
+ */
+@media  (min-width: 320px) {
+
+    .feed__content {
+
+        width: 23.5483870968%; /* 73px * 100% / 310px */
+
+        margin: 0;
+        margin-right:  1.935483871%; /* 6px * 100% / 310px */ 
+        margin-bottom:  1.935483871%; /* 6px * 100% / 310px */ 
+
+    }
+
+    .feed__content:nth-child(4n) {
+
+        margin: 0;
+
+    }
+
+    .feed__content:nth-child(4n+1) {
+
+        clear: both;
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

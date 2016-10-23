@@ -1,0 +1,94 @@
+###############################################################################
+#                              BLOCK MAKEFILE                                  #
+################################################################################
+
+################################################################################
+# VAR
+################################################################################
+
+PROJECT = elgrow_frontend_test_task 
+
+BLOCK   = image-of-the-day
+
+CSS     = src/image-of-the-day.css\
+		  src/__day-plate/image-of-the-day__day-plate.css\
+
+JS      = 
+
+SVG     = 
+
+PNG     = src/__image/image-of-the-day__image.png/image_of_the_day_mobile.png  
+
+JPG     =  
+
+FONT    = 
+
+NJK     = 
+
+TARGETS = css_merge\
+		  png_copy
+
+################################################################################
+# ALL
+################################################################################
+
+all: $(TARGETS)
+	@echo $(PROJECT) :: $(BLOCK) block build completed
+
+################################################################################
+# TARGETS
+################################################################################
+
+delete_old_files:
+
+	@rm -rf build/
+	@rm -rf example/static/
+
+css_merge: 
+
+	@mkdir -p build/bundles
+
+	@cat $(CSS) > build/bundles/bundle.css
+
+
+js_merge: 
+
+	@mkdir -p build/bundles
+
+	@cat $(JS) > build/bundles/bundle.js
+
+
+svg_copy:
+
+	@mkdir -p build/static/svg
+
+	@cp -t build/static/svg $(SVG)
+	
+	
+png_copy:
+
+	@mkdir -p build/static/png
+
+	@cp -t build/static/png $(PNG)
+
+
+jpg_copy:
+
+	@mkdir -p build/static/jpg
+
+	@cp -t build/static/jpg $(JPG)
+
+font_copy:
+
+	@mkdir -p build/static/font
+
+	@cp -t build/static/font -r $(FONT)
+
+
+njk_copy:
+
+	@mkdir -p build
+
+	@cp -t build $(NJK)
+
+

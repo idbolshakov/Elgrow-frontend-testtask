@@ -1,0 +1,172 @@
+/**
+ * pagination.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+
+.pagination * {
+    
+    font-family: sans-serif;
+
+}
+
+.pagination {
+
+    margin: 0;
+    padding: 0;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination {
+
+        margin-top: 4.1935483871%; /* 13px * 100% / 310px */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
+ * pagination__title.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.pagination__title {
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination__title {
+
+        display: none;
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
+ * pagination__page.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.pagination__page {
+
+    display: inline-block;
+
+    width: 34px;
+    height: 34px;
+
+    text-align: center;
+    line-height: 34px;
+
+            border-radius: 17px;
+       -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+
+    cursor: pointer;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination__page {
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
+ * pagination__next.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.pagination__next {
+
+    cursor: pointer;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+
+    .pagination__next {
+
+        margin-left: 7.74193548387%; /* 24 * 100% / 310px  */
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
