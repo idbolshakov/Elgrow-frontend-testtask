@@ -132,6 +132,41 @@
 
 }
 /**
+ * pagination__page_current.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.pagination__page_current {
+
+    font-weight: bold;
+    background: #e6e6e6;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
  * pagination__next.css
  * 
  * @author idbolshakov@gmail.com

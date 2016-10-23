@@ -13,6 +13,7 @@ BLOCK   = pagination
 CSS     = src/pagination.css\
 		  src/__title/pagination__title.css\
 		  src/__page/pagination__page.css\
+		  src/__page/_current/pagination__page_current.css\
 		  src/__next/pagination__next.css\
 
 JS      = 
