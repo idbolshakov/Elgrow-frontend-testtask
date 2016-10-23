@@ -45,6 +45,7 @@ copy_html:
 
 	@cp src/index_mobile.html build/index_mobile.html;
 	@cp src/index_tablet.html build/index_tablet.html;
+	@cp src/index_desktop.html build/index_desktop.html;
 
 
 concat_bundle_css:

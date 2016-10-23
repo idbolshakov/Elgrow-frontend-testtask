@@ -41,6 +41,11 @@
     .feed__ad_desktop {
 
         display: block;
+        float: left;
+
+        width: 22.8571428571%; /* 160px * 100% / 700px */
+
+        margin-left: 2.85714285714%; /* 20px * 100% / 700px */
     }
 }
 

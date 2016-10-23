@@ -38,6 +38,10 @@
  *
  */
 @media (min-width: 480px) {
+
+    .pagination__page {
+    }
+
 }
 
 /** 
@@ -45,5 +49,11 @@
  *
  */
 @media (min-width: 768px) {
+
+    .pagination__page {
+
+        margin-right: 1.14285714286%; /* 8px * 100% / 700px */
+
+    }
 
 }

@@ -83,4 +83,25 @@
  */
 @media (min-width: 768px) {
 
+    .image-of-the-day__day-plate {
+        
+        font-size: 1.3rem;
+
+        width: 22.8571428571%; /* 160px * 100% / 700 */
+
+        margin-left: 2.85714285714%; /* 20px * 100% / 700px */
+        margin-top:  2.85714285714%;  /* 20px * 100% / 700px */
+    }
+
+    .image-of-the-day__day-plate>span:first-child {
+
+        margin-top: 25px;
+    }
+
+    .image-of-the-day__day-plate>span:last-child {
+
+        margin-bottom: 25px;
+    }
+
+
 }

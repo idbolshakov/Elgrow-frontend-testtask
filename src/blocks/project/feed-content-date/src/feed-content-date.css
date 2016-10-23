@@ -37,6 +37,11 @@
  */
 @media (min-width: 480px) {
 
+    .feed-content-date { 
+
+        font-size: 1rem;
+    }
+
 }
 
 /** 
@@ -44,5 +49,10 @@
  *
  */
 @media (min-width: 768px) {
+
+    .feed-content-date { 
+
+        font-size: 1.5rem;
+    }
 
 }
