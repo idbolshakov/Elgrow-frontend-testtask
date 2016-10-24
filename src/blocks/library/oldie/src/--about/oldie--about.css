@@ -1,0 +1,12 @@
+/**
+ * @package oldie
+ * @section oldie--about
+ */
+.oldie--about {
+
+	padding-bottom: 50px;
+	
+	font-size: 20px;
+	
+	border-bottom: solid #000000 1px;
+}

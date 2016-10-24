@@ -6,6 +6,7 @@ BLOCKS = src/blocks/project/container\
 		 src/blocks/project/feed\
 		 src/blocks/project/feed-content-date\
 		 src/blocks/project/pagination\
+		 src/blocks/library/oldie\
 
 CSS_BUNDLES := $(foreach block, $(BLOCKS), $(block)/build/bundles/bundle.css)
 

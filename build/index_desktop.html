@@ -3,7 +3,13 @@
     <head>
         <meta charset="UTF-8">
 
-        <link rel="stylesheet" type="text/css" href="bundles/bundle.css">
+		<!--[if !lte IE 8]>-->  
+        <link rel="stylesheet" href="bundles/bundle.css">
+       <!--<![endif]-->
+        
+        <!--[if lte IE 8]>
+			<link rel="stylesheet" href="static/css/oldie.css">
+        <![endif]-->   
     </head>
 
     <body>
@@ -289,6 +295,10 @@
 
         </div>
         <!-- /PROJECT CONTAINER -->
+        
+        <!--[if lte IE 8]>
+        <script src="static/js/oldie.js"></script>
+        <![endif]-->        
 
     </body>
 </html>

@@ -1,0 +1,69 @@
+/**
+ * oldie block CSS styles
+ *
+ * @package oldie
+ * @author idbolshakov@gmail.com
+ * @section oldie
+ */
+.oldie {
+
+	position: absolute;	
+	z-index: 1000;
+	
+	background: #fff;
+	
+	text-align: center;
+	
+	width: 100%;
+	height: 100%;
+	
+	padding: 20px;
+		
+	
+}
+/**
+ * @package oldie
+ * @section oldie--warning
+ */
+.oldie--warning {
+
+    width: 128px; 
+    height: 128px;
+}
+/**
+ * @package oldie
+ * @section oldie--about
+ */
+.oldie--about {
+
+	padding-bottom: 50px;
+	
+	font-size: 20px;
+	
+	border-bottom: solid #000000 1px;
+}
+/**
+ * @package oldie
+ * @section oldie--recommend
+ */
+.oldie--recommend {
+
+	font-size: 20px;
+}
+/**
+ * @package oldie
+ * @section oldie--browserTable
+ */
+.oldie--browserTable td {
+
+	padding: 20px;
+}
+/**
+ * @package oldie
+ * @section oldie--browserIcon
+ */
+.oldie--browserIcon {
+
+	width: 128px; 
+	height: 128px;
+}

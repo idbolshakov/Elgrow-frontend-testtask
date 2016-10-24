@@ -1,0 +1,23 @@
+/**
+ * oldie block CSS styles
+ *
+ * @package oldie
+ * @author idbolshakov@gmail.com
+ * @section oldie
+ */
+.oldie {
+
+	position: absolute;	
+	z-index: 1000;
+	
+	background: #fff;
+	
+	text-align: center;
+	
+	width: 100%;
+	height: 100%;
+	
+	padding: 20px;
+		
+	
+}
