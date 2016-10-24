@@ -1,0 +1,46 @@
+/**
+ * image-of-the-day__description.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ */
+.image-of-the-day__description {
+
+    font-family: sans!important;
+
+    font-size: 0.8rem;
+
+    display: none;
+}
+
+.image-of-the-day__description>p {margin: 0; padding: 0;}
+.image-of-the-day__description>p:first-child {font-weight: bold; margin-top: 17px;}
+.image-of-the-day__description>p:last-child  {color: #acacac; margin-top: 9px;}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) {
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) {
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+    .image-of-the-day__description {
+
+        display: block;
+    }
+}

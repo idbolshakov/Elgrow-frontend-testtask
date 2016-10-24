@@ -12,6 +12,7 @@ BLOCK   = image-of-the-day
 
 CSS     = src/image-of-the-day.css\
 		  src/__day-plate/image-of-the-day__day-plate.css\
+		  src/__description/image-of-the-day__description.css\
 
 JS      = 
 
